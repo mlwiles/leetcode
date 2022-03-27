@@ -32,7 +32,7 @@ class Solution(object):
         """
         for i in range(len(nums)):
             for j in range(len(nums)):
-                if j != i:
+                if j > i:
                     if (nums[i] + nums[j] == target):
                         return(i,j)
 
