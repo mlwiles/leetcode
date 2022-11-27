@@ -17,6 +17,10 @@
 
 class Solution:
     def longestPalindrome(self, s: str):
+        """
+        :type s: str
+        :rtype: str            
+        """
         frontchr = 0 #first character in the string
         endchr = 0   #last character in the string
         currentstr = ""
